@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: rgb(22, 19, 19);
+}
+section{
+    background-color: white;
+    color: rgb(12, 1, 1);
+    overflow: auto;
+    margin-bottom: 1em;
+
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    color: rgb(71, 226, 123);
+}
+section h2{
+    margin-bottom: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+section p{
+    margin: 1em 0; /*top-bottom left-rigt */
+}
+section ul{
+    padding-left: 2em;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer h2{
+    margin-bottom: 1em;
+    text-align: center;
+}
